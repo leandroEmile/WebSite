@@ -1,0 +1,316 @@
+
+/*-----------------Nav Bar CSS-------------------*/
+/* nav bar style to have the color pink  the text is black on hover is blue and the style si to be on side of eachother
+but on mobile screen size will be on top of eachother 
+*/
+
+.btn-outline-success {
+    color: #3e443b;
+    border-color: #57FB04;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:#0457FB;
+    border-color: #0457FB;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl 
+{
+	background-color: #FB0457;
+	padding-top: 20px;
+    padding-bottom: 10px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+ 
+    color: #0457FB;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+/* header 1 Style*/
+
+.Header1Center{
+	text-align: center;
+	color:#57FB04;
+	    margin-top: 99px;
+}
+.bg-secondary {
+   background-color: #0457FB!important;
+}
+/*-----------------slider CSS-------------------*/
+
+.slider
+{
+    width: 70%;
+    margin-left: 15%;
+	margin-right:15%;
+    padding: 0 10px;
+}
+.carousel
+{
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators
+{
+    z-index: 1 !important;
+}
+@media only screen and (max-width: 980px)
+{
+    .slider
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/*------------featured-categories CSS------------*/
+
+.featured-categories
+{
+    margin: 50px 0;
+}
+.featured-categories img
+{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.featured-categories img:hover
+{
+    transform: scale(1.1);
+}
+
+/*---------------On Sale product CSS----------------*/
+
+.title-box
+{
+    background: #57FB04;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.title-box h2
+{
+    font-size: 24px;
+}
+.title-box::after
+{
+    content: '';
+    border-top: 40px solid #57FB04;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+
+/*-------------product-top CSS----------------*/
+.product-top img
+{
+    width: 100%;
+}
+.overlay-right
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+.overlay-right .fa
+{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.overlay-right .btn-secondary
+{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.product-top:hover .overlay-right
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+/*--------------Product-bottom-CSS---------------*/
+
+.product-bottom .fa
+{
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.new-products
+{
+    margin: 50px 0;
+}
+.col-md-3 
+{
+	color: #0457FB;
+}
+/*----------website-features-------------*/
+.website-features
+{
+   margin: 60px 0;
+}
+
+.website-features img
+{
+    width: 20%;
+}
+.feature-text
+{
+    margin-top: 10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+.feature-box
+{
+    padding-top: 20px;
+}
+
+/*--------------footer---------------*/
+.footer
+{
+	
+    margin-top: 50px;
+    background: #FB0457;
+    color: #fff;
+}
+.footer h1
+{
+	color:black;
+    font-size: 15px;
+    margin: 25px 0;
+}
+.footer p
+{
+	color:white;
+    font-size: 12px;
+}
+.copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.fa-heart-o
+{
+    color: red;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background-color: #ccc;
+}
+.footer-image img
+{
+    width: 150px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+
+/*----------------single-product---------------*/
+.single-product
+{
+    margin-top: 70px;
+}
+.new-arrival
+{
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.col-md-7 h2
+{
+    color: #555;
+}
+.single-product .fa
+{
+    color: orange;
+}
+.single-product .price
+{
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.single-product input
+{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.single-product .btn-primary
+{
+    background: orange !important;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: none !important;
+}
+
+
+/*--------------product-description---------------*/
+.product-description h6
+{
+    margin-top: 50px;
+    color: orange;
+}
+.product-description p
+{
+    margin-top: 30px;
+}
+.product-description hr
+{
+    margin-bottom: 50px;
+}
+
+
+
+body
+{
+    font-family: sans-serif;
+	
+}
